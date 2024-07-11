@@ -6,8 +6,6 @@
 
 
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
 
 .azeret-mono {
     font-family: "Azeret Mono", monospace;
@@ -22,7 +20,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    margin: 30px 80px ;
 }
 .nav-title{
     font-weight:800 ;
@@ -35,5 +33,17 @@ nav ul{
 nav ul li {
     list-style: none;
 }
+.banner
+{
+    margin: 0 200px 0 530px;
+}
+.header{
+    background-image: url('../assets/Hero-bg.png');
+}
+.btn-col{
+    background-color: black;
+    font-weight: 800 ;
+    color: white;
+    padding: 20px 35 px;
 
-
+}
