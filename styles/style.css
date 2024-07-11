@@ -1,3 +1,39 @@
+
+
+
+
+
+
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+
+
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }
+.nav-title{
+    font-weight:800 ;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li {
+    list-style: none;
+}
+
+
